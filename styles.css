@@ -1,0 +1,50 @@
+:root {
+  --color-bg-light: #ffffff;
+  --color-bg-dark: #1c1c1c;
+  --color-text-light: #000000;
+  --color-text-dark: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--color-bg-light);
+  color: var(--color-text-light);
+}
+
+body.dark-mode {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-dark);
+}
+
+.container {
+  width: 300px;
+  padding: 16px;
+}
+
+.mode-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+li img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
